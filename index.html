@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webot</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./images/bot-export.ico">
+</head>
+    <style>
+        .background-Container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            color: #fff;
+            position: relative;
+        }
+
+        input {
+            width: 280px;
+            height: 45px;
+            border-radius: 30px;
+            margin: 10px;
+            padding: 2px 0px 2px 30px;
+            outline: none;
+        }
+
+
+        button {
+            width: 120px;
+            height: 40px;
+            border-radius: 20px;
+            background-color: #1a73e8;
+        }
+
+    </style>
+<body>
+    <div class="background-Container">
+        <p id="botStatement">Hi, what is your name?</p>
+        <input type="text" id="user-Input" maxlength="20" placeholder="Insert here">
+        <button onclick="test()">Enter</button>
+    </div>
+    <br>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
